@@ -1,12 +1,106 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="refresh" content="0; url=https://dominik.gallery/">
-  <link rel="canonical" href="https://dominik.gallery/">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dominik Ślęczka — Software developer</title>
+<meta name="description" content="Dominik Ślęczka, software developer working in R and Python. Photography portfolio at dominik.gallery.">
+<link rel="icon" href="favicon.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: #ffffff;
+    color: #111111;
+    font-family: 'Geist', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+  a { color: #111111; }
+  a:hover { color: #777777; }
+  a:focus-visible { outline: 2px solid #111111; outline-offset: 3px; }
+
+  .page { min-height: 100vh; padding: 56px 32px 72px; }
+  .inner { max-width: 880px; margin: 0 auto; display: flex; flex-direction: column; gap: 56px; }
+
+  h1 {
+    margin: 0;
+    font-size: 34px;
+    line-height: 1.15;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+  }
+  h1 span { color: #8a8a8a; }
+
+  .section {
+    border-top: 1px solid #bdbdbd;
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 48px;
+  }
+  .label {
+    flex: 0 0 140px;
+    font-family: 'Geist Mono', ui-monospace, monospace;
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #6b6b6b;
+  }
+  .bio {
+    margin: 0;
+    flex: 1 1 360px;
+    max-width: 560px;
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 300;
+    color: #222222;
+  }
+  .bio a { text-decoration: underline 1px; text-underline-offset: 3px; }
+
+  .links { flex: 1 1 360px; max-width: 560px; display: flex; flex-direction: column; }
+  .lnk {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 16px;
+    padding: 14px 0;
+    border-bottom: 1px solid #e4e4e4;
+    font-size: 17px;
+    color: #111111;
+    text-decoration: none;
+  }
+  .lnk:hover { color: #777777; }
+  .lnk small {
+    font-family: 'Geist Mono', ui-monospace, monospace;
+    font-size: 12px;
+    color: #6b6b6b;
+  }
+</style>
 </head>
 <body>
-  <p>Redirecting to <a href="https://dominik.gallery/">https://dominik.gallery/</a>...</p>
-  <script>window.location.replace("https://dominik.gallery/");</script>
+<div class="page">
+  <main class="inner">
+
+    <h1>Dominik Ślęczka<br><span>Software developer.</span></h1>
+
+    <section class="section">
+      <div class="label">About</div>
+      <p class="bio">I'm a software developer working mostly in R and Python, building Shiny apps and small full-stack tools. Outside of code I dance and take photos. My photography portfolio is at <a href="https://dominik.gallery">dominik.gallery</a>.</p>
+    </section>
+
+    <section class="section">
+      <div class="label">Elsewhere</div>
+      <nav class="links" aria-label="Links">
+        <a class="lnk" href="resume.pdf"><span>Resume</span><small>PDF ↗</small></a>
+        <a class="lnk" href="https://github.com/domsle"><span>GitHub</span><small>github.com ↗</small></a>
+        <a class="lnk" href="https://www.instagram.com/dominik.gallery"><span>Instagram</span><small>instagram.com ↗</small></a>
+        <a class="lnk" href="https://www.linkedin.com/in/dominik-sleczka/"><span>LinkedIn</span><small>linkedin.com ↗</small></a>
+      </nav>
+    </section>
+
+  </main>
+</div>
 </body>
 </html>
